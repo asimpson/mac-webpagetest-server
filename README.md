@@ -4,7 +4,7 @@ This Docker image inherits from webpagetest/server and adds a custom `locations.
 
 
 **Instructions**
-1. `docker pull amsimpson/mac-webpagetest-server:0.0.1`
+1. `docker pull amsimpson/mac-webpagetest-server:latest` (or any [tag](https://github.com/asimpson/mac-webpagetest-server/releases) instead of `latest`).
 2. `docker run -d -p 4000:80 mac-webpagetest-server`
 The server will now be available on `localhost:4000`.
 3. To run webpagetest locally you will also need `webpagetest/agent`.
